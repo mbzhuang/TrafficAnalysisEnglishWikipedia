@@ -1,10 +1,14 @@
 # Traffic Analysis of English Wikipedia Website
 
-###
+### About the project
+XXXX
+#### Goal:
 
-###
+#### License of source data: and a link to the Wikimedia Foundation terms of use (LINK)
+#### API used:
+#### Final Dataset:the values
 
-###
+#### Special Note: Pageview API excludes spiders/crawlers, while data from the Pagecounts API does not.
 
 ### Organization of the project
 
