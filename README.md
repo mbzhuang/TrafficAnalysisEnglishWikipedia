@@ -5,17 +5,25 @@ The goal of this project is to construct, analyze, and publish a dataset of mont
 
 ##### License of source data
 API
+
 Pagecounts: documentation, endpoint
+
 Pageviews: documentation, endpoint
+
 Both are licensed under the CC-BY-SA 3.0 and GFDL licenses.
+
 See https://www.mediawiki.org/wiki/REST_API for background and details.
 
 Wikimedia's Terms of Use and Privacy Policy
 
-#### Final Dataset:the values
-#### Special Note: Pageview API excludes spiders/crawlers, while data from the Pagecounts API does not.
+##### Steps of the project
+* Data aquisition
+  Special Note: Pageview API excludes spiders/crawlers, while data from the Pagecounts API does not.
+* Data processing
+  final data set
+* Data analysis
 
-### Organization of the project
+##### Organization of the project
 
 The project has the following structure:
 
