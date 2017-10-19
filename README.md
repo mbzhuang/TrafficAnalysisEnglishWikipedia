@@ -15,22 +15,25 @@ Both are licensed under the [CC-BY-SA 3.0](https://creativecommons.org/licenses/
 ##### Wikimedia's [Terms of Use](https://wikimediafoundation.org/wiki/Terms_of_Use) and [Privacy Policy](https://wikimediafoundation.org/wiki/Privacy_policy)
 
 #### Steps of the project
-* Data acquisition
+1.Data acquisition
   Retrieve raw datasets from Pagecount API and Pageview API and save them as JSON files in the JSON_Data folder.
+  
   Note: Pageview API excludes spiders/crawlers, while data from the Pagecounts API does not.
-* Data processing
+2.Data processing
   Read the JSON files and process the raw data into a final csv file, en-wikipedia_traffic_200801-201709.csv
+  
   The final csv file has 8 columns:
-  Column	Value
-  year	  YYYY
-  month	  MM
-  pagecount_all_views	num_views
-  pagecount_desktop_views	num_views
-  pagecount_mobile_views	num_views
-  pageview_all_views	num_views
-  pageview_desktop_views	num_views
-  pageview_mobile_views	num_views
-* Data analysis
+  | Column                 | Value     | 
+  | -----------------------|:---------:| 
+  | year                   | YYYY      |
+  | month                  | MM        | 
+  | pagecount_all_views    | num_views |
+  | pagecount_desktop_views| num_views |
+  | pagecount_mobile_views | num_views |
+  | pageview_all_views     | num_views |
+  | pageview_desktop_views | num_views |
+  | pageview_mobile_views  | num_views |
+3.Data analysis
   Read the csv file, analyze and visualize the traffic data.
 
 #### Organization of the project
