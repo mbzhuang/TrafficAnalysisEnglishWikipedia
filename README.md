@@ -3,8 +3,15 @@
 ### About the project
 The goal of this project is to construct, analyze, and publish a dataset of monthly traffic on English Wikipedia from Jan 1st, 2008 through Sep 30th, 2017. Wikipedia traffic from two different Wikimedia REST API endpoints are acquired through their respective API, combined into a single dataset, and finally visualized to show both the mobile and main site tranffic change from 2008 to 2017.
 
-#### License of source data: and a link to the Wikimedia Foundation terms of use (LINK)
-#### API used:
+##### License of source data
+API
+Pagecounts: documentation, endpoint
+Pageviews: documentation, endpoint
+Both are licensed under the CC-BY-SA 3.0 and GFDL licenses.
+See https://www.mediawiki.org/wiki/REST_API for background and details.
+
+Wikimedia's Terms of Use and Privacy Policy
+
 #### Final Dataset:the values
 #### Special Note: Pageview API excludes spiders/crawlers, while data from the Pagecounts API does not.
 
