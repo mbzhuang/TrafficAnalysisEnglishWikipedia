@@ -32,7 +32,7 @@ Both are licensed under the [CC-BY-SA 3.0](https://creativecommons.org/licenses/
       | pageview_desktop_views | num_views |
       | pageview_mobile_views  | num_views |
   
-3.Data analysis: read the csv file, analyze and visualize the traffic data.
+3. Data analysis: read the csv file, analyze and visualize the traffic data.
 
 #### Organization of the project
 
